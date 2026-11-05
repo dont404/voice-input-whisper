@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
 
 $ArchiveUrl = 'https://github.com/dont404/voice-input-whisper/releases/latest/download/GolosovoyVvod.zip'
