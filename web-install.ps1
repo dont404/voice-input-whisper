@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
 
 $ArchiveUrl = 'https://github.com/dont404/voice-input-whisper/releases/latest/download/GolosovoyVvod.zip'
-$ExpectedHash = '59df30f3625382a2f89a33ade0165026f16d22cee05a9ba04c4789c803383108'
+$ExpectedHash = '18c86e46f748f8d86a6032cfba2df045a98cee98a58ede4564a51fa8d7187657'
 $Work = Join-Path $env:TEMP 'VoiceInputInstall'
 $Destination = Join-Path $env:LOCALAPPDATA 'VoiceInput'
 $Archive = Join-Path $Work 'GolosovoyVvod.zip'
