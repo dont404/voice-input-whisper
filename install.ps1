@@ -29,7 +29,7 @@ Ok "библиотеки готовы"
 
 Info "Модель Whisper large-v3-turbo (проверка или скачивание)…"
 $WhisperDir = Join-Path $VoiceDir 'models'
-$WhisperCode = 'from faster_whisper import WhisperModel; import sys; WhisperModel("large-v3-turbo", device="cpu", compute_type="int8", download_root=sys.argv[1])'
+$WhisperCode = "from faster_whisper import WhisperModel; import sys; WhisperModel('large-v3-turbo', device='cpu', compute_type='int8', download_root=sys.argv[1])"
 $env:HF_HUB_ETAG_TIMEOUT = '60'
 $env:HF_HUB_DOWNLOAD_TIMEOUT = '180'
 $env:HF_ENDPOINT = 'https://hf-mirror.com'
